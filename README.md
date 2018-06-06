@@ -274,6 +274,9 @@ static CocosBridge* _bridge = nil;
 ```
 ![完成！！！][21]
 
+### 如果你想知道在这个工程中js和oc是如何互相调用的，那么我们请看这篇：
+[本篇还有后续](https://github.com/usiege/CocosJS/README2.md)
+
 
   [1]: http://static.zybuluo.com/usiege/yqrdvidd7epqxjltfvrgtysf/image_1cf9dr09f7f8urifpm3pa4bg9.png
   [2]: http://static.zybuluo.com/usiege/u8yfh2zybhytwrsgqvf6e1xh/image_1cf9g35u31c6chvamcu1idd3ntm.png
