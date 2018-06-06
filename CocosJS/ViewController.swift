@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBAction func testAction(_ sender: Any) {
+        let cocosbridge = CocosBridge.shared()
+        let cocosvc = cocosbridge?.viewController
+        navigationController?.pushViewController(cocosvc!, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
