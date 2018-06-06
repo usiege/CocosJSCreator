@@ -1,1 +1,24 @@
-window._CCSettings={"platform":"ios","groupList":["default"],"collisionMatrix":[[true]],"rawAssets":{"assets":{"b2sRlxM3tPb6icT7/n0Yjs":["audio/jump.mp3",0],"9d5V2Gc85CWrHeUzAOW6KO":["audio/score.mp3",0],"5dqwns5xVBGKpMHtzVA6rP":["mikado_outline_shadow.png",1],"20qUnBbsRGQYXQ4dBbxdNY":["textures/PurpleMonster.png",1],"40Btq2valKc4vy2vxC1o9h":["textures/background.jpg",1],"5eiJWcQC5CK61FUGuMyW4I":["textures/btn_play.png",1],"beWRWSsLhAsI/yMP8Vby73":["textures/fx/fx_coinxiaosh_00.png",1],"956PgPxnNB8Klfsghgc6uq":["textures/fx/fx_coinxiaosh_01.png",1],"32iN4Zlz1IAIN/7jy5OVxC":["textures/fx/fx_coinxiaosh_02.png",1],"f3BEu8O9hLfL3ip1K+4wFQ":["textures/fx/fx_coinxiaosh_03.png",1],"f9yCu9mf5MIJ/uUxFVqpos":["textures/fx/fx_coinxiaosh_04.png",1],"30M/BKxl5F35ZcA7B8Wr+w":["textures/fx/fx_coinxiaosh_05.png",1],"4fZszXrtdNuJSQ1Hze0eLN":["textures/ground.png",1],"f3lyEW/3FOoI6H+j1Mn5wp":["textures/star.png",1]}},"assetTypes":["cc.AudioClip","cc.Texture2D"],"launchScene":"db://assets/game.fire","scenes":[{"url":"db://assets/game.fire","uuid":1}],"packedAssets":{"022d7c59b":["8f8nvmrzlJ1puh5uEdmcMv","d9audzzjNGMoRbl0mdAOf2"],"0a7c40e99":[0,"c4ep9P1aVAzJ0ZZ1nxLnPM"],"0b59f39a7":["52Bynd8jBDgKM3gkk3g01F","52Qsik4VZPrLJX5wUESbfi","8dpB91u1FM44YSwDARJzCx","aeJvnpU9NNs5xyVPdxU5Nv",0,"dfeDml6wdHlZKzdldZy9cB","e0CrtOTJNAKY4w6RwVA4At"],"0df2542e6":["88Dwic1k9JWYknS7U6dO2A","adne36HHJBz67mFul8o5dk"],"0e93f1189":[1,"26C6pF1zdAmrndikEgBsAP","3d82Y7O0pFb6kr3STxB5dj","6fEu07vDhMm4IPhF5TnGTf","eaBFMAvdhH+4o42JSdMOhJ"]},"orientation":"","uuids":["c1QExRjalF7pz/47xg3Bt9","0bnHbgIFRO6qbZBA0KoDfw"]};
+window._CCSettings = {
+	"platform": "ios",
+	"groupList": ["default"],
+	"collisionMatrix": [
+		[true]
+	],
+	"rawAssets": {
+		"assets": {
+			"6aoKpq6+5BVaCIpoemqt7E": ["Texture/HelloWorld.png", 0],
+			"a8Anh32NZGRZegUtSgEj26": ["Texture/singleColor.png", 0]
+		}
+	},
+	"assetTypes": ["cc.Texture2D"],
+	"launchScene": "db://assets/Scene/helloworld.fire",
+	"scenes": [{
+		"url": "db://assets/Scene/helloworld.fire",
+		"uuid": 0
+	}],
+	"packedAssets": {
+		"05dd1dc0e": [0, "31vIlawANFZqnzLlSuHBfc", "41D7kWhyFGY7q4NDlzkazn"]
+	},
+	"orientation": "",
+	"uuids": ["2dL3kvpAxJu6GJ7RdqJG5J"]
+};

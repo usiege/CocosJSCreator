@@ -14,10 +14,6 @@
 		CE34F8FB20C77A420063B771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34F8F920C77A420063B771 /* LaunchScreen.storyboard */; };
 		CE34F90720C78C100063B771 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34F90520C78C0F0063B771 /* jsb_module_register.cpp */; };
 		CE34F90820C78C100063B771 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34F90620C78C0F0063B771 /* AppDelegate.cpp */; };
-		CE34F90F20C78CA70063B771 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = CE34F90B20C78CA60063B771 /* project.json */; };
-		CE34F91020C78CA70063B771 /* src in Resources */ = {isa = PBXBuildFile; fileRef = CE34F90C20C78CA60063B771 /* src */; };
-		CE34F91120C78CA70063B771 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = CE34F90D20C78CA60063B771 /* main.js */; };
-		CE34F91220C78CA70063B771 /* res in Resources */ = {isa = PBXBuildFile; fileRef = CE34F90E20C78CA60063B771 /* res */; };
 		CE34F92A20C78E920063B771 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F91B20C78D770063B771 /* libcocos2d iOS.a */; };
 		CE34F92B20C78E920063B771 /* libjscocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F92420C78E5B0063B771 /* libjscocos2d iOS.a */; };
 		CE34F92F20C7934C0063B771 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F92E20C7934C0063B771 /* OpenGLES.framework */; };
@@ -41,9 +37,14 @@
 		CE34F95320C7944C0063B771 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F95220C7944C0063B771 /* GameController.framework */; };
 		CE34F95520C794510063B771 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F95420C794510063B771 /* JavaScriptCore.framework */; };
 		CE34F95720C7945D0063B771 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE34F95620C7945D0063B771 /* libicucore.A.tbd */; };
-		CE34F95920C7B6230063B771 /* script in Resources */ = {isa = PBXBuildFile; fileRef = CE34F95820C7B6230063B771 /* script */; };
 		CE34F95E20C7B8BA0063B771 /* CocosBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE34F95D20C7B8BA0063B771 /* CocosBridge.mm */; };
 		CE34F96520C7BA8C0063B771 /* CocosViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE34F96420C7BA8C0063B771 /* CocosViewController.mm */; };
+		CE34F97520C7E22F0063B771 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = CE34F97120C7E22F0063B771 /* project.json */; };
+		CE34F97620C7E22F0063B771 /* src in Resources */ = {isa = PBXBuildFile; fileRef = CE34F97220C7E22F0063B771 /* src */; };
+		CE34F97720C7E22F0063B771 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = CE34F97320C7E22F0063B771 /* main.js */; };
+		CE34F97820C7E22F0063B771 /* res in Resources */ = {isa = PBXBuildFile; fileRef = CE34F97420C7E22F0063B771 /* res */; };
+		CE34F97B20C7E2990063B771 /* NativeOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34F97A20C7E2980063B771 /* NativeOcClass.m */; };
+		CE34F97D20C7E71B0063B771 /* script in Resources */ = {isa = PBXBuildFile; fileRef = CE34F97C20C7E71B0063B771 /* script */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,10 +103,6 @@
 		CE34F90420C78C0F0063B771 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE34F90520C78C0F0063B771 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
 		CE34F90620C78C0F0063B771 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		CE34F90B20C78CA60063B771 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
-		CE34F90C20C78CA60063B771 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		CE34F90D20C78CA60063B771 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		CE34F90E20C78CA60063B771 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		CE34F91320C78D760063B771 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
 		CE34F91C20C78E5B0063B771 /* cocos2d_js_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_js_bindings.xcodeproj; path = "cocos2d-x/cocos/scripting/js-bindings/proj.ios_mac/cocos2d_js_bindings.xcodeproj"; sourceTree = "<group>"; };
 		CE34F92E20C7934C0063B771 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -129,12 +126,18 @@
 		CE34F95220C7944C0063B771 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		CE34F95420C794510063B771 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		CE34F95620C7945D0063B771 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
-		CE34F95820C7B6230063B771 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = "cocos2d-x/cocos/scripting/js-bindings/script"; sourceTree = SOURCE_ROOT; };
 		CE34F95C20C7B8BA0063B771 /* CocosBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocosBridge.h; sourceTree = "<group>"; };
 		CE34F95D20C7B8BA0063B771 /* CocosBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CocosBridge.mm; sourceTree = "<group>"; };
 		CE34F95F20C7B8E30063B771 /* CocosJS-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocosJS-Bridge-Header.h"; sourceTree = "<group>"; };
 		CE34F96320C7BA8C0063B771 /* CocosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosViewController.h; sourceTree = "<group>"; };
 		CE34F96420C7BA8C0063B771 /* CocosViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocosViewController.mm; sourceTree = "<group>"; };
+		CE34F97120C7E22F0063B771 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		CE34F97220C7E22F0063B771 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		CE34F97320C7E22F0063B771 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		CE34F97420C7E22F0063B771 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		CE34F97920C7E2980063B771 /* NativeOcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
+		CE34F97A20C7E2980063B771 /* NativeOcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeOcClass.m; sourceTree = "<group>"; };
+		CE34F97C20C7E71B0063B771 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = "cocos2d-x/cocos/scripting/js-bindings/script"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,8 @@
 			children = (
 				CE34F8F020C77A3F0063B771 /* AppDelegate.swift */,
 				CE34F8F220C77A3F0063B771 /* ViewController.swift */,
+				CE34F97920C7E2980063B771 /* NativeOcClass.h */,
+				CE34F97A20C7E2980063B771 /* NativeOcClass.m */,
 				CE34F96320C7BA8C0063B771 /* CocosViewController.h */,
 				CE34F96420C7BA8C0063B771 /* CocosViewController.mm */,
 				CE34F95F20C7B8E30063B771 /* CocosJS-Bridge-Header.h */,
@@ -213,11 +218,11 @@
 		CE34F90220C78C0F0063B771 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE34F95820C7B6230063B771 /* script */,
-				CE34F90D20C78CA60063B771 /* main.js */,
-				CE34F90B20C78CA60063B771 /* project.json */,
-				CE34F90E20C78CA60063B771 /* res */,
-				CE34F90C20C78CA60063B771 /* src */,
+				CE34F97C20C7E71B0063B771 /* script */,
+				CE34F97320C7E22F0063B771 /* main.js */,
+				CE34F97120C7E22F0063B771 /* project.json */,
+				CE34F97420C7E22F0063B771 /* res */,
+				CE34F97220C7E22F0063B771 /* src */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -381,12 +386,12 @@
 			files = (
 				CE34F8FB20C77A420063B771 /* LaunchScreen.storyboard in Resources */,
 				CE34F8F820C77A420063B771 /* Assets.xcassets in Resources */,
+				CE34F97520C7E22F0063B771 /* project.json in Resources */,
+				CE34F97D20C7E71B0063B771 /* script in Resources */,
+				CE34F97620C7E22F0063B771 /* src in Resources */,
+				CE34F97720C7E22F0063B771 /* main.js in Resources */,
+				CE34F97820C7E22F0063B771 /* res in Resources */,
 				CE34F8F620C77A3F0063B771 /* Main.storyboard in Resources */,
-				CE34F95920C7B6230063B771 /* script in Resources */,
-				CE34F91120C78CA70063B771 /* main.js in Resources */,
-				CE34F91220C78CA70063B771 /* res in Resources */,
-				CE34F90F20C78CA70063B771 /* project.json in Resources */,
-				CE34F91020C78CA70063B771 /* src in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE34F97B20C7E2990063B771 /* NativeOcClass.m in Sources */,
 				CE34F96520C7BA8C0063B771 /* CocosViewController.mm in Sources */,
 				CE34F90820C78C100063B771 /* AppDelegate.cpp in Sources */,
 				CE34F95E20C7B8BA0063B771 /* CocosBridge.mm in Sources */,
